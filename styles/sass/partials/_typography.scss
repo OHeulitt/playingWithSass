@@ -1,0 +1,11 @@
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+   @include headerStyles(40px, 36px, darkred);
+}
+
+h2 {
+    @include headerStyles(30px, 28px);
+}

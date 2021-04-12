@@ -1,0 +1,25 @@
+@import "partials/setup";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/typography";
+
+body {
+    background-color: $secondaryColor;
+    color: $mainColor;
+    background-image: url(../assets/chubster.jpg);
+    background-size: cover;
+}
+
+.gallery {
+    border: 1px solid darkred;
+    li {
+        display: inline-block;
+        a {
+            color: $mainColor;
+            text-decoration: none;
+            &:hover {
+                color: darkred;
+            }
+        }
+    }
+}

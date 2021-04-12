@@ -1,0 +1,5 @@
+@mixin headerStyles($fontSize, $lineHeight, $fontColor:#444) {
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: $fontColor;
+}
